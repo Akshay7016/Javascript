@@ -6,7 +6,7 @@ var User = function (firstName, courseCount) {
     }
 }
 
-// Prototype
+// Prototype --> used to inject properties later on inside the object
 User.prototype.getFirstName = function () {
     console.log(`Your name is: ${this.firstName}`);
 }
