@@ -1,3 +1,6 @@
+// Closures are functions that refer to independent (free) variables. In other words, 
+// the function defined in the closure ‘remembers’ the environment in which it was created.
+
 function init() {
     var firstName = "Akshay";
     console.log("I am init");

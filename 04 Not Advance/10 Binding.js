@@ -1,3 +1,5 @@
+// bind() is used to borrow a method from another object
+// bind() method gives reference back
 const akshay = {
     firstName: "Akshay",
     lastName: "Sajgule",
@@ -26,5 +28,6 @@ akshay.getInfo()
 // rohit as argument to bind()
 akshay.getInfo.bind(rohit)()
 // or
+// bind() method gives reference back
 var rohitInfo = akshay.getInfo.bind(rohit);
 rohitInfo()
